@@ -1,6 +1,9 @@
 ## Wolfenstein3dEx
 基于LibEx代码在iOS平台上重新实现《德军总部3D》
 
+### Screenshots
+![screenshot](https://raw.githubusercontent.com/cabin5955/Wolfenstein3dEx/master/images/screenshot.png "screenshot")
+
 ### 上手指南
 以下指南将帮助你在本地机器上安装和运行该项目，进行开发和测试。
 
