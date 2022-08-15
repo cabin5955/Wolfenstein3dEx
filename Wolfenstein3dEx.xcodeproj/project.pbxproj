@@ -10,7 +10,6 @@
 		D236BA5428A69A9F00AC4F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D236BA5328A69A9F00AC4F09 /* Assets.xcassets */; };
 		D236BA5728A69A9F00AC4F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D236BA5628A69A9F00AC4F09 /* main.m */; };
 		D236BBDF28A6A5FF00AC4F09 /* default.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D236BA6028A6A5FD00AC4F09 /* default.ttf */; };
-		D236BC0D28A6A5FF00AC4F09 /* Types.inl in Resources */ = {isa = PBXBuildFile; fileRef = D236BAD728A6A5FE00AC4F09 /* Types.inl */; };
 		D236BC0E28A6A5FF00AC4F09 /* tmx_loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D236BADC28A6A5FE00AC4F09 /* tmx_loader.cpp */; };
 		D236BC0F28A6A5FF00AC4F09 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D236BAE128A6A5FE00AC4F09 /* imgui_widgets.cpp */; };
 		D236BC1028A6A5FF00AC4F09 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D236BAE528A6A5FE00AC4F09 /* imgui.cpp */; };
@@ -125,22 +124,6 @@
 		D236BA5628A69A9F00AC4F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D236BA6028A6A5FD00AC4F09 /* default.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.ttf; sourceTree = "<group>"; };
 		D236BAC728A6A5FE00AC4F09 /* simple-xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simple-xml.h"; sourceTree = "<group>"; };
-		D236BACB28A6A5FE00AC4F09 /* ObjectTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjectTypes.hpp; sourceTree = "<group>"; };
-		D236BACC28A6A5FE00AC4F09 /* TileLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TileLayer.hpp; sourceTree = "<group>"; };
-		D236BACD28A6A5FE00AC4F09 /* Map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
-		D236BACE28A6A5FE00AC4F09 /* Config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
-		D236BACF28A6A5FE00AC4F09 /* ImageLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImageLayer.hpp; sourceTree = "<group>"; };
-		D236BAD028A6A5FE00AC4F09 /* Property.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Property.hpp; sourceTree = "<group>"; };
-		D236BAD128A6A5FE00AC4F09 /* Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
-		D236BAD228A6A5FE00AC4F09 /* Layer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Layer.hpp; sourceTree = "<group>"; };
-		D236BAD428A6A5FE00AC4F09 /* Android.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Android.hpp; sourceTree = "<group>"; };
-		D236BAD528A6A5FE00AC4F09 /* Log.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Log.hpp; sourceTree = "<group>"; };
-		D236BAD628A6A5FE00AC4F09 /* ObjectGroup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjectGroup.hpp; sourceTree = "<group>"; };
-		D236BAD728A6A5FE00AC4F09 /* Types.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Types.inl; sourceTree = "<group>"; };
-		D236BAD828A6A5FE00AC4F09 /* FreeFuncs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FreeFuncs.hpp; sourceTree = "<group>"; };
-		D236BAD928A6A5FE00AC4F09 /* LayerGroup.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LayerGroup.hpp; sourceTree = "<group>"; };
-		D236BADA28A6A5FE00AC4F09 /* Tileset.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tileset.hpp; sourceTree = "<group>"; };
-		D236BADB28A6A5FE00AC4F09 /* Types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Types.hpp; sourceTree = "<group>"; };
 		D236BADC28A6A5FE00AC4F09 /* tmx_loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tmx_loader.cpp; sourceTree = "<group>"; };
 		D236BADE28A6A5FE00AC4F09 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
 		D236BADF28A6A5FE00AC4F09 /* imstb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
@@ -368,7 +351,6 @@
 				D236BB7328A6A5FE00AC4F09 /* game_wrapper.h */,
 				D236BBD028A6A5FF00AC4F09 /* game_wrapper.mm */,
 				D236BAC728A6A5FE00AC4F09 /* simple-xml.h */,
-				D236BAC828A6A5FE00AC4F09 /* tmxlite */,
 				D236BA5328A69A9F00AC4F09 /* Assets.xcassets */,
 				D236BA5528A69A9F00AC4F09 /* Info.plist */,
 				D236BA5628A69A9F00AC4F09 /* main.m */,
@@ -382,53 +364,6 @@
 				D236BA6028A6A5FD00AC4F09 /* default.ttf */,
 			);
 			path = fonts;
-			sourceTree = "<group>";
-		};
-		D236BAC828A6A5FE00AC4F09 /* tmxlite */ = {
-			isa = PBXGroup;
-			children = (
-				D236BAC928A6A5FE00AC4F09 /* include */,
-			);
-			path = tmxlite;
-			sourceTree = "<group>";
-		};
-		D236BAC928A6A5FE00AC4F09 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				D236BACA28A6A5FE00AC4F09 /* tmxlite */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		D236BACA28A6A5FE00AC4F09 /* tmxlite */ = {
-			isa = PBXGroup;
-			children = (
-				D236BACB28A6A5FE00AC4F09 /* ObjectTypes.hpp */,
-				D236BACC28A6A5FE00AC4F09 /* TileLayer.hpp */,
-				D236BACD28A6A5FE00AC4F09 /* Map.hpp */,
-				D236BACE28A6A5FE00AC4F09 /* Config.hpp */,
-				D236BACF28A6A5FE00AC4F09 /* ImageLayer.hpp */,
-				D236BAD028A6A5FE00AC4F09 /* Property.hpp */,
-				D236BAD128A6A5FE00AC4F09 /* Object.hpp */,
-				D236BAD228A6A5FE00AC4F09 /* Layer.hpp */,
-				D236BAD328A6A5FE00AC4F09 /* detail */,
-				D236BAD628A6A5FE00AC4F09 /* ObjectGroup.hpp */,
-				D236BAD728A6A5FE00AC4F09 /* Types.inl */,
-				D236BAD828A6A5FE00AC4F09 /* FreeFuncs.hpp */,
-				D236BAD928A6A5FE00AC4F09 /* LayerGroup.hpp */,
-				D236BADA28A6A5FE00AC4F09 /* Tileset.hpp */,
-				D236BADB28A6A5FE00AC4F09 /* Types.hpp */,
-			);
-			path = tmxlite;
-			sourceTree = "<group>";
-		};
-		D236BAD328A6A5FE00AC4F09 /* detail */ = {
-			isa = PBXGroup;
-			children = (
-				D236BAD428A6A5FE00AC4F09 /* Android.hpp */,
-				D236BAD528A6A5FE00AC4F09 /* Log.hpp */,
-			);
-			path = detail;
 			sourceTree = "<group>";
 		};
 		D236BADD28A6A5FE00AC4F09 /* imgui */ = {
@@ -860,7 +795,6 @@
 				D236BC3128A6A5FF00AC4F09 /* mesh.vs in Resources */,
 				D236BC3C28A6A5FF00AC4F09 /* mulight.fs in Resources */,
 				D236BC3528A6A5FF00AC4F09 /* simple.vert in Resources */,
-				D236BC0D28A6A5FF00AC4F09 /* Types.inl in Resources */,
 				D236BBDF28A6A5FF00AC4F09 /* default.ttf in Resources */,
 				D236BC2F28A6A5FF00AC4F09 /* ui.vs in Resources */,
 				D236BC3E28A6A5FF00AC4F09 /* color.fs in Resources */,
