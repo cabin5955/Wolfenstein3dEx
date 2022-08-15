@@ -190,5 +190,10 @@ void GameWolfenstein3D::Render()
 
 void GameWolfenstein3D::Release()
 {
-    
+    delete Text;
+    delete GoButton_Left;
+    delete GoButton_Right;
+    delete JumpButton;
+    delete colorRenderer;
+    delete uiRenderer;
 }

@@ -144,7 +144,8 @@ static void onSurfaceRefresh(GLFMDisplay *display) {
 
 static void onSurfaceDestroyed(GLFMDisplay *display) {
     // When the surface is destroyed, all existing GL resources are no longer valid.
-    
+    printf("SurfaceDestroyed\n");
+    [wrapper Realease];
 }
 
 static void draw(ExampleApp *app, int width, int height) {
